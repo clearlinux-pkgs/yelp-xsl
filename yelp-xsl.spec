@@ -4,7 +4,7 @@
 #
 Name     : yelp-xsl
 Version  : 3.27.1
-Release  : 1
+Release  : 2
 URL      : http://ftp.gnome.org/pub/GNOME/sources/yelp-xsl/3.27/yelp-xsl-3.27.1.tar.xz
 Source0  : http://ftp.gnome.org/pub/GNOME/sources/yelp-xsl/3.27/yelp-xsl-3.27.1.tar.xz
 Summary  : Yelp XSLT Stylesheets
