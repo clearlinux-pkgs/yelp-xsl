@@ -1,3 +1,63 @@
+commit 72821085aef6667c468bcb03a22592d7d6214443
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Tue Mar 6 08:05:37 2018 -0500
+
+    Implement th/@scope attribute
+
+ xslt/docbook/html/db2html-table.xsl  | 2 +-
+ xslt/mallard/html/mal2html-table.xsl | 5 +++++
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
+commit c02d9727bb1556b03ad6747c9c10e7555b7418b9
+Author: GNOME Translation Robot <gnome-sysadmin@gnome.org>
+Date:   Fri Feb 23 17:38:21 2018 +0000
+
+    Update Scottish Gaelic translation
+    
+    (cherry picked from commit f7ffbcb06bb87194076f2f1acba13f038b9a703d)
+
+ po/gd.po | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+commit fd47ffab5cdefb95b7bc0bde3d4fc2b8795f0ba7
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Tue Feb 6 08:27:23 2018 -0500
+
+    Version 3.27.90
+
+ NEWS         | 6 ++++++
+ configure.ac | 2 +-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit 4174f5f3ce57e93b418d0cd87c7a7c1563a8e70c
+Author: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Date:   Fri Dec 22 22:53:11 2017 +0000
+
+    Update Esperanto translation
+
+ po/eo.po | 231 ++++++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 139 insertions(+), 92 deletions(-)
+
+commit 1bb86ef5c90d867f6dccffe1f3609025ffbbae4f
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Tue Oct 17 12:28:40 2017 -0400
+
+    l10n.xsl: Typo fixes in docs
+
+ doc/yelp-xsl/C/l10n.gettext.page |  6 +++---
+ xslt/common/l10n.xsl             | 14 +++++++-------
+ 2 files changed, 10 insertions(+), 10 deletions(-)
+
+commit 12c5d4b9b996b5a41c9db565ad0b879e10f4e85c
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Mon Oct 16 11:39:17 2017 -0400
+
+    Version 3.27.1
+
+ NEWS         | 34 ++++++++++++++++++++++++++++++++++
+ configure.ac |  2 +-
+ 2 files changed, 35 insertions(+), 1 deletion(-)
+
 commit 8fd38cc945a465b585ab52765fa7a34210d0ddcc
 Author: Shaun McCance <shaunm@redhat.com>
 Date:   Mon Oct 16 11:14:12 2017 -0400
