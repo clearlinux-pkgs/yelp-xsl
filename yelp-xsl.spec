@@ -4,7 +4,7 @@
 #
 Name     : yelp-xsl
 Version  : 3.28.0
-Release  : 3
+Release  : 4
 URL      : https://download.gnome.org/sources/yelp-xsl/3.28/yelp-xsl-3.28.0.tar.xz
 Source0  : https://download.gnome.org/sources/yelp-xsl/3.28/yelp-xsl-3.28.0.tar.xz
 Summary  : Yelp XSLT Stylesheets
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1522183486
+export SOURCE_DATE_EPOCH=1522184323
 %configure --disable-static
 make  %{?_smp_mflags}
 
@@ -64,7 +64,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1522183486
+export SOURCE_DATE_EPOCH=1522184323
 rm -rf %{buildroot}
 %make_install
 
