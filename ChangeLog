@@ -1,3 +1,272 @@
+commit c4f37239e0c4e1a1f65a12f1939e50f14abff9ad
+Author: gogo <trebelnik2@gmail.com>
+Date:   Sun Sep 2 15:47:48 2018 +0000
+
+    Update Croatian translation
+
+ po/hr.po | 165 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 85 insertions(+), 80 deletions(-)
+
+commit 77d7ffa39fb9e4ebd81e1d0c5492bad0aa2c1340
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:   Sat Sep 1 21:54:52 2018 +0000
+
+    Update Swedish translation
+
+ po/sv.po | 167 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 86 insertions(+), 81 deletions(-)
+
+commit 1cbc2bd9ead8be26ab97d76501934c953840ca07
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:   Sat Sep 1 18:46:10 2018 +0200
+
+    Updated Danish translation
+
+ po/da.po | 276 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 140 insertions(+), 136 deletions(-)
+
+commit 0daccff691b1e47c39fd12056be64390bb2746c6
+Author: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>
+Date:   Fri Aug 31 18:01:47 2018 +0000
+
+    Update Latvian translation
+
+ po/lv.po | 175 +++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 87 insertions(+), 88 deletions(-)
+
+commit 8ecbca731377f4f47845bb9fcc9f2e6251dfb7ba
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Fri Aug 31 11:41:54 2018 -0400
+
+    mal2html: Add mallard:if/1.0 to supported feature tokens
+
+ xslt/mallard/html/mal2xhtml.xsl | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit c12a5a9134b32cbb466861444229e5ea7e516749
+Author: Balázs Meskó <meskobalazs@fedoraproject.org>
+Date:   Fri Aug 31 13:33:24 2018 +0000
+
+    Update Hungarian translation
+
+ po/hu.po | 301 ++++++++++++++++++++++++++-------------------------------------
+ 1 file changed, 126 insertions(+), 175 deletions(-)
+
+commit d0a1a1d4004a9baa0fbcd41ed7d6465c78ce9e91
+Author: Fran Dieguez <frandieguez@gnome.org>
+Date:   Wed Aug 29 21:51:21 2018 +0000
+
+    Update Galician translation
+
+ po/gl.po | 170 +++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 85 insertions(+), 85 deletions(-)
+
+commit 5f28eece2d0d8862a710b5e679434d23bc704743
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:   Tue Aug 28 15:53:52 2018 +0000
+
+    Update Korean translation
+
+ po/ko.po | 162 +++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 84 insertions(+), 78 deletions(-)
+
+commit de78f3861bc93cad1e96c833a7581263e350bb8c
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:   Mon Aug 27 07:54:54 2018 +0000
+
+    Update Italian translation
+
+ po/it.po | 188 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 97 insertions(+), 91 deletions(-)
+
+commit af2c3a2c8383d04f27f9a658431764753b0c557e
+Author: Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Date:   Sun Aug 26 13:46:45 2018 +0000
+
+    Update Indonesian translation
+
+ po/id.po | 165 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 85 insertions(+), 80 deletions(-)
+
+commit 614cdbe506cbec841a27ec8cb248792f33acf18c
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Fri Aug 17 18:22:32 2018 +0000
+
+    Update Finnish translation
+
+ po/fi.po | 177 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 91 insertions(+), 86 deletions(-)
+
+commit 6d06651dde05f33e2a8041e66bc0a691878772d8
+Author: Efstathios Iosifidis <eiosifidis@gnome.org>
+Date:   Mon Aug 13 22:42:42 2018 +0000
+
+    Update Greek translation
+
+ po/el.po | 396 +++++++++++++++++++++++----------------------------------------
+ 1 file changed, 145 insertions(+), 251 deletions(-)
+
+commit 807ebfd19fe41f5d8b3cada10d9c2414e71eccb6
+Author: Emin Tufan Çetin <etcetin@gmail.com>
+Date:   Sun Aug 12 10:20:20 2018 +0000
+
+    Update Turkish translation
+
+ po/tr.po | 175 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 89 insertions(+), 86 deletions(-)
+
+commit 19ab7aa23e0154d74bb34d317060455d19f2c6e1
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:   Sun Aug 5 23:18:47 2018 +0300
+
+    Updated Lithuanian translation
+
+ po/lt.po | 166 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 85 insertions(+), 81 deletions(-)
+
+commit b3f6b92bd0b1cfb45ffce34b355a83b3f56345a7
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:   Fri Aug 3 12:06:54 2018 +0200
+
+    Added Slovenian translation
+
+ po/sl.po | 166 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 84 insertions(+), 82 deletions(-)
+
+commit a180410acc6417ddd756189964b91408f7948671
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:   Sun Jul 29 20:43:00 2018 +0200
+
+    Update Polish translation
+
+ po/pl.po | 165 +++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 82 insertions(+), 83 deletions(-)
+
+commit 47a6657bb5caa533e3de70f24bec1d07588e1deb
+Author: Mario Blättermann <mario.blaettermann@gmail.com>
+Date:   Sun Jul 22 14:31:25 2018 +0000
+
+    Update German translation
+
+ po/de.po | 339 +++++++++++++++------------------------------------------------
+ 1 file changed, 81 insertions(+), 258 deletions(-)
+
+commit e78717502104c566d556f32a01ed4788cf7156c8
+Author: Charles Monzat <charles.monzat@numericable.fr>
+Date:   Fri Jul 20 09:01:16 2018 +0000
+
+    Update French translation
+
+ po/fr.po | 173 +++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 90 insertions(+), 83 deletions(-)
+
+commit 3020b4dc905bd0e7b5b635061bcd2ff0bc7aeec9
+Author: Enrico Nicoletto <liverig@gmail.com>
+Date:   Wed Jun 27 19:31:36 2018 -0300
+
+    Updated Brazilian Portuguese Translation
+
+ po/pt_BR.po | 171 +++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 87 insertions(+), 84 deletions(-)
+
+commit 5c8d2c990d3b9f2ebc6ee79438b66f2c56065012
+Author: Fabio Tomat <f.t.public@gmail.com>
+Date:   Wed Jun 27 07:37:56 2018 +0000
+
+    Update Friulian translation
+
+ po/fur.po | 165 ++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 85 insertions(+), 80 deletions(-)
+
+commit bc7c3acd312b861732976f63eb12a1455f750903
+Author: Daniel Mustieles <daniel.mustieles.contractor@bbva.com>
+Date:   Thu Jun 21 10:08:42 2018 +0200
+
+    Updated Spanish translation
+
+ po/es.po | 173 +++++++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 86 insertions(+), 87 deletions(-)
+
+commit dbc7e0263901899a46a7709b81a1909c1c3bc6e3
+Author: Marek Cernocky <marek_cernocky@conel.cz>
+Date:   Mon Jun 18 13:38:59 2018 +0200
+
+    Updated Czech translation
+
+ po/cs.po | 167 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 86 insertions(+), 81 deletions(-)
+
+commit 9a66647f6e7e9dce296846d5d26dc143f7331b55
+Author: Daniel Șerbănescu <daniel@serbanescu.dk>
+Date:   Sun Jun 17 19:59:09 2018 +0000
+
+    Update Romanian translation
+
+ po/ro.po | 182 +++++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 94 insertions(+), 88 deletions(-)
+
+commit b82cfe3620e156a411dcdf311faeb490325bf6d5
+Author: Yi-Jyun Pan <pan93412@gmail.com>
+Date:   Wed Jun 13 13:28:14 2018 +0000
+
+    Update Chinese (Taiwan) translation
+
+ po/zh_TW.po | 179 +++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 92 insertions(+), 87 deletions(-)
+
+commit ccf8396651802fcee95325fc3eee30f6b69700e0
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Sun Jun 10 13:29:48 2018 -0400
+
+    Adding stock sidebar support
+
+ doc/yelp-xsl/C/db2html-division.page           |   2 +-
+ doc/yelp-xsl/C/html.head.top.custom.page       |  13 ++
+ doc/yelp-xsl/C/html.page                       |   2 +-
+ doc/yelp-xsl/C/html.page.page                  |   4 +-
+ doc/yelp-xsl/C/html.sidebar.contents.mode.page |  12 ++
+ doc/yelp-xsl/C/html.sidebar.contents.page      |  17 ++
+ doc/yelp-xsl/C/html.sidebar.custom.page        |   1 +
+ doc/yelp-xsl/C/html.sidebar.left.page          |   6 +
+ doc/yelp-xsl/C/html.sidebar.mode.page          |  16 ++
+ doc/yelp-xsl/C/html.sidebar.page               |  16 ++
+ doc/yelp-xsl/C/html.sidebar.right.page         |   6 +
+ doc/yelp-xsl/C/html.sidebar.sections.mode.page |  12 ++
+ doc/yelp-xsl/C/html.sidebar.sections.page      |  17 ++
+ doc/yelp-xsl/C/mal.link.target.extended.page   |  25 +++
+ doc/yelp-xsl/C/mal2html-page.page              |   2 +-
+ doc/yelp-xsl/C/mal2html.ui.links.img.src.page  |  24 +++
+ xslt/common/domains/yelp-xsl.pot               | 155 ++++++++--------
+ xslt/common/domains/yelp-xsl.xml.in            |  10 ++
+ xslt/common/html.xsl                           | 240 ++++++++++++++++++++++++-
+ xslt/dita/html/dita2html-topic.xsl             |   6 +
+ xslt/docbook/html/db2html-division.xsl         |  85 +++++++--
+ xslt/mallard/html/mal2html-links.xsl           |   3 +
+ xslt/mallard/html/mal2html-page.xsl            | 127 +++++++++++++
+ 23 files changed, 704 insertions(+), 97 deletions(-)
+
+commit 58985b3cffd0c80395bef4fa28eb3a3b8d05c109
+Author: Pieter Schalk Schoeman <pieter@sonbesie.co.za>
+Date:   Mon May 28 13:19:31 2018 +0000
+
+    Add Afrikaans translation
+    
+    (cherry picked from commit 62fec3697f6c86025b5c49bacd04569eb1d42f5a)
+
+ po/LINGUAS |   1 +
+ po/af.po   | 596 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 597 insertions(+)
+
+commit a90bb7c103415d8ebd7971016b16bda29afdcaa0
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Mon Mar 12 11:57:52 2018 -0400
+
+    Version 3.28.0
+
+ NEWS         | 5 +++++
+ configure.ac | 2 +-
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
 commit 72821085aef6667c468bcb03a22592d7d6214443
 Author: Shaun McCance <shaunm@redhat.com>
 Date:   Tue Mar 6 08:05:37 2018 -0500
