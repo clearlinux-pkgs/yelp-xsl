@@ -4,7 +4,7 @@
 #
 Name     : yelp-xsl
 Version  : 3.30.0
-Release  : 6
+Release  : 7
 URL      : https://download.gnome.org/sources/yelp-xsl/3.30/yelp-xsl-3.30.0.tar.xz
 Source0  : https://download.gnome.org/sources/yelp-xsl/3.30/yelp-xsl-3.30.0.tar.xz
 Summary  : Yelp XSLT Stylesheets
