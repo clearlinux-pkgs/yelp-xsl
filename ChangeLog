@@ -1,3 +1,31 @@
+commit c6143ac47b3a14276f8226245d07d3075cab34e9
+Author: Stas Solovey <whats_up@tut.by>
+Date:   Thu Sep 6 20:21:26 2018 +0000
+
+    Update Russian translation
+
+ po/ru.po | 182 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 92 insertions(+), 90 deletions(-)
+
+commit 2a2c6b71c5931c96d59ec8720cf72e30bfb7fb85
+Author: Yuras Shumovich <shumovichy@gmail.com>
+Date:   Tue Sep 4 13:49:58 2018 +0000
+
+    Update Belarusian translation
+
+ po/be.po | 182 ++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 93 insertions(+), 89 deletions(-)
+
+commit c2d83e8e13ab76ff3c81d9d5577653c6977727b3
+Author: Shaun McCance <shaunm@redhat.com>
+Date:   Mon Sep 3 15:50:14 2018 -0400
+
+    Version 3.30.0
+
+ NEWS         | 30 ++++++++++++++++++++++++++++++
+ configure.ac |  2 +-
+ 2 files changed, 31 insertions(+), 1 deletion(-)
+
 commit c4f37239e0c4e1a1f65a12f1939e50f14abff9ad
 Author: gogo <trebelnik2@gmail.com>
 Date:   Sun Sep 2 15:47:48 2018 +0000
