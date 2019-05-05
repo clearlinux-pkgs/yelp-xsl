@@ -4,7 +4,7 @@
 #
 Name     : yelp-xsl
 Version  : 3.32.1
-Release  : 10
+Release  : 11
 URL      : https://download.gnome.org/sources/yelp-xsl/3.32/yelp-xsl-3.32.1.tar.xz
 Source0  : https://download.gnome.org/sources/yelp-xsl/3.32/yelp-xsl-3.32.1.tar.xz
 Summary  : Document transformations from Yelp
@@ -62,8 +62,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552832745
-export LDFLAGS="${LDFLAGS} -fno-lto"
+export SOURCE_DATE_EPOCH=1557026846
+export AR=gcc-ar
+export RANLIB=gcc-ranlib
+export NM=gcc-nm
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 %configure --disable-static
 make  %{?_smp_mflags}
 
@@ -75,7 +81,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1552832745
+export SOURCE_DATE_EPOCH=1557026846
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/yelp-xsl
 cp COPYING %{buildroot}/usr/share/package-licenses/yelp-xsl/COPYING
