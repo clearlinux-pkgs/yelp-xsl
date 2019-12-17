@@ -4,7 +4,7 @@
 #
 Name     : yelp-xsl
 Version  : 3.34.2
-Release  : 13
+Release  : 14
 URL      : https://download.gnome.org/sources/yelp-xsl/3.34/yelp-xsl-3.34.2.tar.xz
 Source0  : https://download.gnome.org/sources/yelp-xsl/3.34/yelp-xsl-3.34.2.tar.xz
 Summary  : Yelp XSLT Stylesheets
@@ -62,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1574700895
+export SOURCE_DATE_EPOCH=1576599178
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -82,7 +82,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1574700895
+export SOURCE_DATE_EPOCH=1576599178
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/yelp-xsl
 cp %{_builddir}/yelp-xsl-3.34.2/COPYING %{buildroot}/usr/share/package-licenses/yelp-xsl/3db6c7b240e7ee09baf9426dc9ed4aacb6904dbb
