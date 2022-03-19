@@ -1,6 +1,13 @@
-41.1
+42.0
 ====
+* No changes since beta, stable release only
+
+42.beta
+=======
+* Fix topic and section links in Mallard stack files
+* Avoid use of global l10n.locale parameter
 * Updated translations:
+  ab    (Naala Nanba)
   hr    (Goran Vidović)
   is    (Sveinn í Felli)
 
