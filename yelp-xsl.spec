@@ -4,7 +4,7 @@
 #
 Name     : yelp-xsl
 Version  : 42.1
-Release  : 27
+Release  : 28
 URL      : https://download.gnome.org/sources/yelp-xsl/42/yelp-xsl-42.1.tar.xz
 Source0  : https://download.gnome.org/sources/yelp-xsl/42/yelp-xsl-42.1.tar.xz
 Summary  : Yelp XSLT Stylesheets
@@ -58,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1663605510
+export SOURCE_DATE_EPOCH=1664163955
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -78,7 +78,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1663605510
+export SOURCE_DATE_EPOCH=1664163955
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/yelp-xsl
 cp %{_builddir}/yelp-xsl-%{version}/COPYING.GPL %{buildroot}/usr/share/package-licenses/yelp-xsl/b47456e2c1f38c40346ff00db976a2badf36b5e3 || :
